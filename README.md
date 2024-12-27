@@ -35,7 +35,7 @@ departments
 - The net change in empoyees has increased over the years.
 - The average tenure for each department is about 8 years with the Legal and Auding having the highest and Services,Sales and Marketing having the lowest.
 
-#Limitation
+# Limitation
 - Some records had negative ages and these were excluded during querying (967nrecords) Age used were 18 years and above.
 - Some termdates were far into the future and were not included in the analysis(1599 records). The only termdate used were those less than or equal to the current date
 - 
