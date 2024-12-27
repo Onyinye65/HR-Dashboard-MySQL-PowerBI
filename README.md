@@ -6,7 +6,7 @@
 
 **Data Cleaning & Analysis**-MYSQL Jupyter Notebook
 
-**Data Visualization -PowerBI
+**Data Visualization** -PowerBI
 
 # Questions
 1. What is the gender breakdown of employees in the company?
@@ -29,9 +29,14 @@
 - A large number of employees work at the headquaters versus remotely.
 - The average length of employment for terminated employees is around 7 years.
 - The gender distribution across departments is fairly balanced but thre are generally more male than female employees.
-- The Marketing department has the highest turnover rate followed by Training. The least turn over rate are in the Research and development, Support and Legal departments
+- The Marketing department has the highest turnover rate followed by Training. The least turn over rate are in the Research and development, Support and Legal
+departments
 - A large number of employees come from the state of ohio.
 - The net change in empoyees has increased over the years.
 - The average tenure for each department is about 8 years with the Legal and Auding having the highest and Services,Sales and Marketing having the lowest.
+
+#Limitation
+- Some records had negative ages and these were excluded during querying (967nrecords) Age used were 18 years and above.
+- Some termdates were far into the future and were not included in the analysis(1599 records). The only termdate used were those less than or equal to the current date
 - 
 - 
